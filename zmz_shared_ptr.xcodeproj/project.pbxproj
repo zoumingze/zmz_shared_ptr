@@ -23,10 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		20798EFA2938242C0084FFEF /* weak_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weak_ptr.h; sourceTree = "<group>"; };
 		20BD4DA1291D099E00061F79 /* zmz_shared_ptr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = zmz_shared_ptr; sourceTree = BUILT_PRODUCTS_DIR; };
 		20BD4DA4291D099E00061F79 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		20BD4DAB291D0A6A00061F79 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		20BD4DAC291D0ABC00061F79 /* shared_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shared_ptr.h; sourceTree = "<group>"; };
+		20BD4DAD2926101B00061F79 /* unique_ptr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unique_ptr.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,8 @@
 			children = (
 				20BD4DA4291D099E00061F79 /* main.cpp */,
 				20BD4DAC291D0ABC00061F79 /* shared_ptr.h */,
+				20BD4DAD2926101B00061F79 /* unique_ptr.h */,
+				20798EFA2938242C0084FFEF /* weak_ptr.h */,
 			);
 			path = zmz_shared_ptr;
 			sourceTree = "<group>";
